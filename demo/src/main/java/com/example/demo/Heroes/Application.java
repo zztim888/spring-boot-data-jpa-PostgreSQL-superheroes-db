@@ -38,6 +38,14 @@ public class Application {
                     9
             );
             heroesRepository.save ( wonderwoman );
+            //how to see in PostgreSQL using psql(command line interface)
+            //"superheroes"(application.properties) is the name of my database as an example
+            //create database, type: create database superheroes;
+            // connect to database,type: \c superheroes
+            // next,type: \d
+            // expand, type: \x , change back with same command back
+            // type:select * from heroes;
+            //"heroes" is the name of the table
 
         };
     }
